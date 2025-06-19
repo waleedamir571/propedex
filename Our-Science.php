@@ -52,7 +52,7 @@
                             <span class="d-flex align-items-center"><span class="dot"></span> Our Science</span>
                             <span class="arrow">&#8594;</span>
                         </div>
-                        <a href="clinical-study.php"><div class="item"><span class="dot"></span> CLINICAL STUDY</div></a>
+                        <a href="clinical-study"><div class="item"><span class="dot"></span> CLINICAL STUDY</div></a>
                     </div>
                     <br>
                     <div class="research-card">

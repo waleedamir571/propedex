@@ -32,7 +32,7 @@
         <!-- /Hero -->
 
         <!-- Featured -->
-        <section class="pt-5 pb-4" data-aos="fade">
+        <!-- <section class="pt-5 pb-4" data-aos="fade">
             <div class="container-fluid mt-5">
                 <div class="row">
                     <div class="col-sm-3">
@@ -274,7 +274,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- /Featured -->
 
         <!-- About -->
@@ -687,7 +687,7 @@
                 <div class="row">
                     <div class=" col-xl-6">
                         <!-- Contac Information -->
-                        <img src="assets/img/hero/contact.png" alt="">
+                        <img class="w-100" src="assets/img/hero/contact.png" alt="">
                         <!-- /Contac Information -->
                     </div>
                     <div class="col-12 col-xl-6">
@@ -732,13 +732,13 @@
                                     </div>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <!-- <div class="col-md-6">
                                         <div class="form-floating mb-4">
                                            <textarea id="txtMessage" name="message" class="form-control shadow-sm"
                                             placeholder="Service type" style="height: 120px" required></textarea>
 
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-md-6">
                                         <p class="submit">Submit this information and we will send you the cost for
                                             the service.</p>

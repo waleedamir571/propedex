@@ -8,7 +8,7 @@
         <div class="hero-bg"></div>
         <div class="bg-content container">
             <div class="hero-page-title">
-                <h1 class="display-4 hero-title">Clinical Study</h1>
+                <h1 class="display-4 hero-title">Clinical Study Summary</h1>
             </div>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb mb-0" style="margin-left: 50px;">
@@ -130,7 +130,7 @@
                     <img src="assets/img/clinical/clinical.png" class="img-fluid rounded mb-4" alt="Hero Image">
                     <br>
                     <h4 class="section-title">Clinical Study Summary</h4>
-                    <p class="athletes">The company is currently engaged in numerous clinical studies that have</p>
+                    <p class="company">The company is currently engaged in numerous clinical studies that have</p>
 
                     <h4 class="section-title">Breakthrough Results</h4>
                     <p class="athletes">Achieved a 90% mycological cure rate—approximately 25% higher than reported in
@@ -213,8 +213,8 @@
                         <img src="assets/img/clinical/a1.png" class="me-3 article-img" alt="">
                         <div>
                             <div class="article-meta item"> 04 June, 2025, /<span class="chem">Propedix Inc.</span></div>
-                            <div class="article-title">Exploring Anatomy Methods
-                                in the Lab</div>
+                            <div class="article-title">Propedix Inc. Announces Appointment of William Haegele to Board of Directors
+</div>
                         </div>
                         <div class="arrow-circle1">
                             <a

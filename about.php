@@ -40,7 +40,7 @@
                             <div class="image-info image-info-right image-info-vertical">
 
                                 <div class="image-center">
-                                    <img src="assets/img/about/foot.png" srcset="./assets/img/about/a2@2x.jpg 2x"
+                                    <img src="assets/img/about/foot.png" 
                                         class="rounded w-100" alt="">
                                 </div>
 
@@ -356,8 +356,7 @@
                         <img src="assets/img/clinical/a1.png" class="me-3 article-img" alt="">
                         <div>
                             <div class="article-meta item"> 04 June, 2025, /<span class="chem">Propedix Inc.</span></div>
-                            <div class="article-title">Exploring Anatomy Methods
-                                in the Lab</div>
+                            <div class="article-title">Propedix Inc. Announces Appointment of William Haegele to Board of Directors</div>
                         </div>
                         <div class="arrow-circle1">
                             <a
