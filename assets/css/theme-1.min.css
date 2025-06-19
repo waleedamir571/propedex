@@ -3468,11 +3468,12 @@ textarea.form-control.is-invalid {
 
 .btn:focus-visible {
     color: var(--bs-btn-hover-color);
-    background-color: var(--bs-btn-hover-bg);
+    background-color: white;
     border-color: var(--bs-btn-hover-border-color);
     outline: 0;
-    box-shadow: var(--bs-btn-focus-box-shadow)
+    box-shadow: var(--bs-btn-focus-box-shadow);
 }
+
 
 .btn-check:focus-visible+.btn {
     border-color: var(--bs-btn-hover-border-color);

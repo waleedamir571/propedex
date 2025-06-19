@@ -25,7 +25,7 @@
     <section class="pt-5 pb-4" data-aos="fade">
         <div class="container mt-5">
             <div class="row">
-                <div class="col-sm-3">
+                <div class="col-sm-3 offset-sm-3">
                     <div class="info-card">
                         <div class="info-header d-flex align-items-center ">
 
@@ -56,7 +56,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <!-- <div class="col-sm-3">
                     <div class="info-card">
                         <div class="info-header d-flex align-items-center ">
 
@@ -89,7 +89,7 @@
                             </svg>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="col-sm-3">
                     <div class="info-card">
                         <div class="info-header d-flex align-items-center ">
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <!-- <div class="col-sm-3">
                     <div class="info-card">
                         <div class="info-header d-flex align-items-center ">
 
@@ -197,7 +197,7 @@
                             </svg>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -250,63 +250,63 @@
                                 </p>
                             </div>
                             <div class="alert d-none" role="alert" id="msg_alert"></div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-floating1 mb-4">
-                                        <input id="txtYourName" type="text" name="yourname"
-                                            class="form-control shadow-sm" placeholder="First Name" required>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-floating1 mb-4">
+                                            <input id="txtYourName" type="text" name="yourname"
+                                                class="form-control shadow-sm" placeholder="First Name" required>
 
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating1 mb-4">
+                                            <input id="txtYourName" type="text" name="yourname"
+                                                class="form-control shadow-sm" placeholder="Last Name" required>
+
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating1 mb-4">
-                                        <input id="txtYourName" type="text" name="yourname"
-                                            class="form-control shadow-sm" placeholder="Last Name" required>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-floating1 mb-4">
+                                            <input id="txtYourName" type="number" name="yourname"
+                                                class="form-control shadow-sm" placeholder="Your Phone" required>
 
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating1 mb-4">
+                                            <input id="txtEmail" type="email" name="email" class="form-control shadow-sm"
+                                                placeholder="Your Email" required>
+
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-floating1 mb-4">
-                                        <input id="txtYourName" type="number" name="yourname"
-                                            class="form-control shadow-sm" placeholder="First Name" required>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-floating1 mb-4">
+                                            <textarea id="txtMessage" name="message" class="form-control shadow-sm"
+                                                placeholder="Message" style="height: 150px" required></textarea>
+
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                            <label class="form-check-label checkbox" for="defaultCheck1">
+                                                Save my name, email, and website in this browser for the next time I
+                                                comment.
+                                            </label>
+                                        </div>
 
                                     </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating1 mb-4">
-                                        <input id="txtEmail" type="email" name="email" class="form-control shadow-sm"
-                                            placeholder="Your Email" required>
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-floating1 mb-4">
-                                        <textarea id="txtMessage" name="message" class="form-control shadow-sm"
-                                            placeholder="Message" style="height: 150px" required></textarea>
-
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                        <label class="form-check-label checkbox" for="defaultCheck1">
-                                            Save my name, email, and website in this browser for the next time I
-                                            comment.
-                                        </label>
-                                    </div>
 
                                 </div>
-
-
-                            </div>
 
 
                             <br>
                             <button type="submit" class="btn btn-projects2 rounded-pill px-4 py-2">
 
-                                <span> Get Cost Estimate <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32"
+                                <span> Submit Enquiry <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32"
                                         viewBox="0 0 24 32" fill="none">
                                         <path
                                             d="M12.2913 23.8941C12.1551 23.8967 12.0178 23.8636 11.8966 23.7888C11.547 23.5735 11.4406 23.1062 11.6509 22.757C11.6686 22.7262 13.8656 19.0598 18.0595 16.7525H1.75572C1.34069 16.7525 1.00317 16.415 1.00317 15.9999C1.00317 15.5849 1.34069 15.2474 1.75572 15.2474H18.0595C13.889 12.9533 11.6671 9.27071 11.6453 9.23383C11.4394 8.8824 11.5534 8.41469 11.9045 8.20661C12.2605 7.99553 12.7293 8.11781 12.9419 8.47565C13.2839 9.02124 16.4913 13.9124 22.2441 15.2658C22.5883 15.3505 22.8269 15.6519 22.8269 16.0003C22.8269 16.3487 22.5899 16.6509 22.2505 16.7333C16.4732 18.0916 13.2768 22.9892 12.9313 23.5434C12.7959 23.7605 12.5453 23.8892 12.2913 23.8941Z"
@@ -325,7 +325,7 @@
         </div>
     </section>
 
-    <section class=" p-bottom-90" data-aos="fade">
+    <!-- <section class=" p-bottom-90" data-aos="fade">
         <div class="container">
             <div class="row">
                 <div class="b-bottom"></div>
@@ -334,7 +334,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
     <!-- Tour types -->
 
     <!-- /Popular Topics -->

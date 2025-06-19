@@ -1,16 +1,49 @@
-  <div class="p-bottom-90">
+  <div class="p-bottom-45">
     <footer class="footer p-top-90 " data-aos="fade">
 
         <!-- Footer top -->
         <footer class="footer">
             <div class="container">
-                <div class="row gy-4">
+                <div class="row gy-4 ">
                     <div class="col-md-3 text-md-start text-center">
-                        <div class="footer-logo"><img src="assets/img/hero/logo.png" alt=""></div>
+                        <div class="footer-logo"><a href="./"> <img src="assets/img/hero/logo.png" alt=""></a></div>
+                        
+                         <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fas fa-envelope"></i></a>
+                        </div>
 
                     </div>
+                      <div class="col-md-3">
+                        <h6>Useful Link</h6>
+                        <ul>
+                            <li><a href="./">Home</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Blog</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                       <h6>Useful Link</h6>
+                        <ul>
+                          
+                            <li><a href=".about">About</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="contact-us">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Say Hello</h6>
+                        <ul>
+                            <li><a href="mailto:admin@propedix.com"><i class="fas fa-envelope"></i>
+                                    admin@propedix.com</a></li>
+                            <li><a href="tel:+1800123456789"><i class="fas fa-phone"></i> +1-800123-456-789</a></li>
+                        </ul>
+                    </div>
 
-                    <div class="col-md-4 text-md-start text-center">
+                    <!-- <div class="col-md-4 text-md-start text-center">
                         <p class="subscribe">Subscribe to Our Newsletter</p>
 
                     </div>
@@ -25,53 +58,22 @@
                                         fill="white"></path>
                                 </svg></button>
                         </form>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="pt-20"></div>
                 <div class="row">
                     <div class="col-md-3">
 
-                        <div class="social-icons">
-                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#"><i class="fab fa-twitter"></i></a>
-                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fas fa-envelope"></i></a>
-                        </div>
+                       
                     </div>
-                    <div class="col-md-3">
-                        <h6>Useful Link</h6>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h6>Working Time</h6>
-                        <ul>
-                            <li>Mon - Fri: 9:00am - 5:00pm</li>
-                            <li>Saturday: 10:00am - 6:00pm</li>
-                            <li>Sunday: Closed</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h6>Say Hello</h6>
-                        <ul>
-                            <li><a href="mailto:admin@propedix.com"><i class="fas fa-envelope"></i>
-                                    admin@propedix.com</a></li>
-                            <li><a href="tel:+1800123456789"><i class="fas fa-phone"></i> +1-800123-456-789</a></li>
-                        </ul>
-                    </div>
+                  
                 </div>
 
             </div>
 
             <div class="footer-bottom mt-5 pt-3">
-                <div>© 2025 Propedix. All Rights Reserved.</div>
+                <div class="rights">© 2025 Propedix. All Rights Reserved.</div>
                 <div>
                     <a href="#">Privacy Policy</a>
                     <a href="#">Term And Condition</a>
@@ -166,6 +168,30 @@ if (document.querySelector('.destination-slider')) {
 }
 
 
+</script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const sidebar = document.getElementById("sidebar");
+    const recentArticles = document.getElementById("recent-articles");
+
+    function toggleSidebar() {
+      const rect = recentArticles.getBoundingClientRect();
+      const windowHeight = window.innerHeight;
+
+      // Hide sidebar when "Recent Articles" section is visible
+      if (rect.top < windowHeight && rect.bottom > 100) {
+        sidebar.classList.add("hide");
+      } else {
+        sidebar.classList.remove("hide");
+      }
+    }
+
+    window.addEventListener("scroll", toggleSidebar);
+    window.addEventListener("resize", toggleSidebar);
+
+    toggleSidebar(); // Run on page load
+  });
 </script>
 
     <script>

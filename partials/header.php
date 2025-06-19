@@ -9,11 +9,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - </title>
+    <title>Propedix </title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="Themenix.com">
-    <link href="assets/img/logos/favicon.png" rel="shortcut icon" type="image/png">
+    <link href="assets/img/hero/favicon.png" rel="shortcut icon" type="image/png">
     <link href="assets/css/theme-1.min.css" rel="stylesheet">
     <link href="assets/css/theme-2.min.css" rel="stylesheet">
     <link href="assets/css/theme-3.min.css" rel="stylesheet">
@@ -53,13 +53,13 @@
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <i class="hicon hicon-bold hicon-hamburger-menu"></i>
                     </button>
-                    <a class="navbar-brand" href="index.php">
+                    <a class="navbar-brand" href="./">
                         <img src="assets/img/hero/logo.png" srcset="" alt="">
                     </a>
                     <div class="offcanvas offcanvas-navbar offcanvas-start border-end-0" tabindex="-1"
                         id="offcanvasNavbar">
                         <div class="offcanvas-header border-bottom p-4 p-xl-0">
-                            <a href="index.php" class="d-inline-block">
+                            <a href="./" class="d-inline-block">
                                 <img src="assets/img/hero/logo.png"
                                     srcset="" alt="">
                             </a>
@@ -69,22 +69,22 @@
                         <div class="offcanvas-body p-4 p-xl-0">
                             <ul class="navbar-nav">
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle-hover active" href="index.php" data-bs-display="static">
+                                    <a class="nav-link dropdown-toggle-hover active" href="./" data-bs-display="static">
                                         <span>Home</span>
 
                                     </a>
 
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle-hover" href="" data-bs-display="static">
+                                    <a class="nav-link dropdown-toggle-hover" href="about" data-bs-display="static">
                                         <span>About us</span>
 
                                     </a>
 
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle-hover" href="athletes-food.php" data-bs-display="static">
-                                        <span>Athletes Foot</span>
+                                    <a class="nav-link dropdown-toggle-hover" href="Our-Science" data-bs-display="static">
+                                        <span>our science</span>
 
                                     </a>
 
@@ -97,14 +97,14 @@
 
                                 </li> -->
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle-hover" href="our-pipelines.php" data-bs-display="static">
+                                    <a class="nav-link dropdown-toggle-hover" href="our-pipelines" data-bs-display="static">
                                         <span> OUR Pipeline</span>
 
                                     </a>
 
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle-hover" href="#" data-bs-display="static">
+                                    <a class="nav-link dropdown-toggle-hover" href="clinical-study" data-bs-display="static">
                                         <span> Clinical Study</span>
 
                                     </a>
@@ -119,7 +119,7 @@
 
                             <img src="assets/img/hero/search.png" alt="">
                         </a>
-                        <a href="contact-us.php" class="btn btn-primary1 btn-uppercase ">
+                        <a href="contact-us" class="btn btn-primary1 btn-uppercase ">
 
                             <span>Contact us <svg xmlns="http://www.w3.org/2000/svg" width="18" height="19"
                                     viewBox="0 0 18 19" fill="none">
