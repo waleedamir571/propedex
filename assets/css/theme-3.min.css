@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* prevent horizontal scroll */
+}
 
 .fa-brands,
 .fab {
@@ -8167,15 +8172,11 @@ h6 {
     }
 
     .image-info.image-info-vertical .image-center {
-        margin-left: 1.75rem
+        margin-left: 0.75rem;
     }
 }
 
-@media (max-width:576px) {
-    .image-info.image-info-vertical .vertical-title>small {
-        font-size: .65rem
-    }
-}
+
 
 .image-hover {
     display: block;
@@ -11013,3 +11014,207 @@ h6 {
     }
 }
 
+@media (min-width:320px) and (max-width:480px) {
+
+    .header-navbar .navbar
+
+ {
+    padding-top: 10px;
+  
+}
+
+.article-title
+
+ {
+    color: #001837;
+    /* font-family: Raleway; */
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+    .image-info.image-info-vertical .vertical-title>small {
+        font-size: .65rem
+    }
+     .left-image,
+    .right-section {
+        border-radius: 10px;
+        height: auto;
+        min-height: 300px;
+    }
+
+    .hex-bg {
+        background-size: cover;
+        height: auto;
+    }
+    .right-section {
+        padding-top: 60px;
+        padding: 30px 20px;
+    }
+
+    .hex-bg {
+    background: url(../img/hero/bg2.png) no-repeat center center;
+    background-size: cover; /* better for responsiveness */
+    height: 100%;
+}
+
+.breakthrough {
+    color: var(--xleb-demo-pbminfotech-com-white, var(--color-white-solid, #FFF));
+    font-size: 20px;
+    font-style: normal;
+    font-weight: var(--font-weight-700, 700);
+    line-height: 1.3;
+    line-height: 1.3;
+}
+
+.block-title .title {
+    margin-bottom: 0;
+    color: #001A21;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: var(--font-weight-600, 600);
+    line-height: 1.3;
+}
+
+.footer {
+    background: url(../img/hero/Footerbg.png);
+    
+    padding: 15px 0px 10px;
+   
+}
+.research-box img {
+    width: 100%;
+    height: 300px;
+    display: block;
+}
+
+.text {
+    color: #001A21;
+    
+    padding-top: 20px;
+}
+
+.info-box {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    background: url(../img/hero/box.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 15px 20px;
+    border-radius: 12px;
+    height: 200px;
+    width: 290px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.form-contact {
+   
+    height: 105%;
+}
+
+.pb-10{
+        padding-bottom: 10px;
+}
+
+.section-container {
+     display: block; 
+    align-items: flex-start;
+    gap: 0px;
+    padding-top: 25px;
+}
+
+.p-top-90 {
+    padding-top: 40px !important;
+}
+
+.heaing {
+    color: var(--xleb-demo-pbminfotech-com-white, var(--color-white-solid, #FFF));
+    font-size: 25px;
+    font-style: normal;
+    font-weight: var(--font-weight-600, 600);
+    line-height: 1.3;
+}
+
+
+.pharma {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: var(--font-weight-700, 700);
+    line-height: 1.3;
+    line-height: 1.4;
+}
+
+.block{
+    display:block !important;
+}
+
+.arrow-circle1 {
+    position: relative;
+   
+    top: 2rem;
+   
+}
+.hero-bg1 {
+    background-image: url(../img/about/about.png);
+    background-size: cover;
+  
+    height: 25rem !important;
+}
+
+.hero-bg {
+    background-image: url(../img/hero/contactbg.png);
+    background-size: cover;
+    height: 25rem !important;
+}
+
+
+
+.board {
+    color: #001837;
+    font-size: 25px;
+    
+}
+
+.hero .hero-title {
+    color: #FFF;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    /* letter-spacing: -0.25px; */
+}
+
+.p-bottom-90 {
+    padding-bottom: 45px !important;
+}
+
+
+
+.header-navbar .navbar .nav-link {
+    color: var(--bs-dark);
+    font-size: 17px;
+    font-weight: 500;
+    position: relative;
+    padding: 8px;
+}
+
+.section-title {
+   
+    font-size: 28px;
+    
+}
+
+
+.dnone1{
+    display: none;
+}
+
+/* .dropdown, .dropdown-center, .dropend, .dropstart, .dropup, .dropup-center {
+   
+    display: none;
+} */
+
+
+    
+}

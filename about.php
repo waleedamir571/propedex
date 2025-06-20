@@ -320,7 +320,7 @@
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <img src="assets/img/clinical/lab-bottel.png" alt="">
+                    <img class="w-100 pb-10" src="assets/img/clinical/lab-bottel.png" alt="">
                 </div>
             </div>
 
@@ -352,7 +352,7 @@
             <div class="row g-4">
                 <!-- Article 1 -->
                 <div class="col-md-6">
-                    <div class="card-custom d-flex align-items-center">
+                    <div class="card-custom d-flex align-items-center block">
                         <img src="assets/img/clinical/a1.png" class="me-3 article-img" alt="">
                         <div>
                             <div class="article-meta item"> 04 June, 2025, /<span class="chem">Propedix Inc.</span></div>

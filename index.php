@@ -9,7 +9,7 @@
         <div class="container-fluid my-5">
             <div class="row g-4">
                 <!-- Left Image Section -->
-                <div class="col-md-6 position-relative">
+                <div class="col-12 col-md-6 ">
                     <div class="left-image">
                         <!-- <div class="circle-overlay"></div> -->
                         <!-- <button class="btn btn-light video-button">
@@ -19,7 +19,7 @@
                 </div>
 
                 <!-- Right Text Section -->
-                <div class="col-md-6">
+                <div class="col-12 col-md-6">
                     <div class="right-section hex-bg">
                         <span class="brDEr badge  mb-2">Tomorrow’s treatments, today.</span>
                         <h2 class="breakthrough">Breakthroughs<br> <span class="pharma">in Biopharma</span></h2>
@@ -687,7 +687,7 @@
                 <div class="row">
                     <div class=" col-xl-6">
                         <!-- Contac Information -->
-                        <img class="w-100" src="assets/img/hero/contact.png" alt="">
+                        <img class="w-100 pb-10" src="assets/img/hero/contact.png" alt="">
                         <!-- /Contac Information -->
                     </div>
                     <div class="col-12 col-xl-6">

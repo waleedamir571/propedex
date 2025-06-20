@@ -51,7 +51,7 @@
                 <div class="container-fluid">
                     <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <i class="hicon hicon-bold hicon-hamburger-menu"></i>
+                        <i class="fas fa-bars"></i>
                     </button>
                     <a class="navbar-brand" href="./">
                         <img src="assets/img/hero/logo.png" srcset="" alt="">
@@ -114,7 +114,7 @@
 
                         </div>
                     </div>
-                    <div class="dropdown user-menu ms-xl-auto">
+                    <div class="dropdown user-menu ms-xl-auto dnone1">
                         <a href="" class=" ">
 
                             <img src="assets/img/hero/search.png" alt="">

@@ -157,7 +157,7 @@
                         redness of skin.
                     </p>
 
-                    <div class="row text-center">
+                    <div class="row text-center dnone1">
                         <div class="col-md-4 col-6 ">
                             <div class="counter-box">
                                 <div class="counter-number"><span class="counter" data-target="90">0</span><span
@@ -209,7 +209,7 @@
             <div class="row g-4">
                 <!-- Article 1 -->
                 <div class="col-md-6">
-                    <div class="card-custom d-flex align-items-center">
+                    <div class="card-custom d-flex align-items-center block">
                         <img src="assets/img/clinical/a1.png" class="me-3 article-img" alt="">
                         <div>
                             <div class="article-meta item"> 04 June, 2025, /<span class="chem">Propedix Inc.</span></div>
