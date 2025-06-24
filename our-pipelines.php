@@ -5,7 +5,7 @@
 
     <!-- Hero -->
     <section class="hero aos-init aos-animate" data-aos="fade">
-        <div class="hero-bg"></div>
+        <div class="hero-bg4"></div>
         <div class="bg-content container">
             <div class="hero-page-title">
                 <h1 class="display-4 hero-title">Our Pipeline</h1>

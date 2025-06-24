@@ -1,4 +1,4 @@
-<div class="p-bottom-45">
+<div class="p-bottom-45" id="recent-articles">
   <footer class="footer p-top-90 " data-aos="fade">
 
     <!-- Footer top -->
@@ -191,28 +191,50 @@
 </script>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const sidebar = document.getElementById("sidebar");
-    const recentArticles = document.getElementById("recent-articles");
+    document.querySelector('.btn-projects').addEventListener('click', function () {
+        document.querySelectorAll('.research-box.hidden').forEach(function (box) {
+            box.classList.remove('hidden');
+        });
 
-    function toggleSidebar() {
-      const rect = recentArticles.getBoundingClientRect();
-      const windowHeight = window.innerHeight;
+        // Optional: hide button after click
+        this.style.display = 'none';
+    });
+</script>
 
-      // Hide sidebar when "Recent Articles" section is visible
-      if (rect.top < windowHeight && rect.bottom > 100) {
-        sidebar.classList.add("hide");
-      } else {
-        sidebar.classList.remove("hide");
-      }
+
+<script>
+  window.addEventListener('scroll', function () {
+    const sidebar = document.getElementById('sidebar');
+    const fixedSidebar = document.querySelector('#sidebar .fixed-sidebar');
+    const recentArticles = document.getElementById('recent-articles');
+
+    const scrollY = window.scrollY;
+    const sidebarTop = sidebar.offsetTop;
+
+    // Fix sidebar after it scrolls out of view
+    if (scrollY > sidebarTop - 100) {
+      sidebar.classList.add('fixed');
+    } else {
+      sidebar.classList.remove('fixed');
     }
 
-    window.addEventListener("scroll", toggleSidebar);
-    window.addEventListener("resize", toggleSidebar);
+    // Calculate exact trigger point for hiding
+    const sectionTopAbsolute = recentArticles.getBoundingClientRect().top + window.scrollY;
+    const triggerPoint = sectionTopAbsolute - window.innerHeight + 50; // 👈 50px after section appears fully
 
-    toggleSidebar(); // Run on page load
+    if (scrollY >= triggerPoint) {
+      sidebar.classList.add('hide');
+    } else {
+      sidebar.classList.remove('hide');
+    }
   });
 </script>
+
+
+
+
+
+
 
 <script>
   // jQuery Counter

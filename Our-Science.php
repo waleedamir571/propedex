@@ -5,7 +5,7 @@
 
     <!-- Hero -->
     <section class="hero aos-init aos-animate" data-aos="fade">
-        <div class="hero-bg"></div>
+        <div class="hero-bg2"></div>
         <div class="bg-content container">
             <div class="hero-page-title">
                 <h1 class="display-4 hero-title">Our Science</h1>
@@ -37,7 +37,7 @@
             <div class="row">
                 <!-- Sidebar -->
                 <div class="col-sm-3" id="sidebar">
-                    <div class="fix">
+                      <div class="fixed-sidebar">
                     <div class="what-we-do-box">
                         <div class="what-we-do-title">
                             <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26"
