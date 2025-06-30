@@ -82,13 +82,7 @@
         </div>
 
         <div class="pt-20"></div>
-        <div class="row">
-          <div class="col-md-3">
-
-
-          </div>
-
-        </div>
+     
 
       </div>
 
@@ -201,7 +195,6 @@
     });
 </script>
 
-
 <script>
   window.addEventListener('scroll', function () {
     const sidebar = document.getElementById('sidebar');
@@ -230,12 +223,6 @@
   });
 </script>
 
-
-
-
-
-
-
 <script>
   // jQuery Counter
   $('.counter').each(function () {
@@ -259,8 +246,5 @@
 </script>
 
 </body>
-
-
-
 
 </html>

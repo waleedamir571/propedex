@@ -32,7 +32,7 @@
 
 
 
-    <section class=" p-bottom-90" data-aos="fade">
+    <section class="p-bottom-90" data-aos="fade">
         <div class="container p-4">
             <div class="row">
                 <!-- Sidebar -->
